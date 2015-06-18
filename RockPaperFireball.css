@@ -1,0 +1,243 @@
+body {
+  background-image: url("pics/background.png") ;
+  background-size: 1375px;
+
+}
+
+@font-face {
+  font-family: 'gangOfThree'
+  src:('ref/go3v2_2.ttf');
+}
+
+
+#text {
+  position: fixed;
+  font-size: 25px;
+  left: 60px;
+  top: 10px;
+  font-family: 'gangOfThree';
+}
+
+#bubble {
+  position: fixed;
+  width: 350px;
+  left: 35px;
+  top: 10px;
+  visibility: hidden;
+}
+
+img#title {
+  display: block;
+  margin-left: 380px;
+  margin-right: auto;
+}
+
+.guide {
+  position: fixed;
+  width: 120px;
+  left: 60px;
+  top: 590px;
+  visibility: visible;
+}
+
+#userLabel {
+  position: fixed;
+  width: 300px;
+  left: 0px;
+  top: 520px;
+}
+
+#comLabel {
+  position: fixed;
+  width: 300px;
+  left: 1075px;
+  top: 520px;
+}
+
+#userScoreBorder {
+  position: fixed;
+  width: 200px;
+  left: 0px;
+  top: 300px;
+}
+
+#comScoreBorder {
+  position: fixed;
+  width: 200px;
+  left: 1175px;
+  top: 300px;
+}
+
+#panda {
+  position: fixed;
+  width: 150px;
+  left: 20px;
+  top: 165px;
+}
+
+#userScore {
+  position: fixed;
+  left: 60px;
+  top: 230px;
+  font-size: 100px;
+  font-family: 'gangOfThree';
+}
+
+#comScore {
+  position: fixed;
+  left: 1250px;
+  top: 230px;
+  font-size: 100px;
+  font-family: 'gangOfThree';
+}
+
+#display {
+  visibility: hidden;
+}
+
+#result {
+  visibility: hidden;
+}
+
+#youWin {
+  position: fixed;
+  width: 300px;
+  left: 525px;
+  top: 225px;
+  visibility: hidden;
+}
+#youLose {
+  position: fixed;
+  width: 300px;
+  left: 525px;
+  top: 225px;
+  visibility: hidden;
+}
+#draw {
+  position: fixed;
+  width: 300px;
+  left: 525px;
+  top: 225px;
+  visibility: hidden;
+}
+
+#userRock {
+  width: 300px;
+  position: fixed;
+  left: 250px;
+  top: 300px;
+  visibility: hidden;
+}
+#userPaper {
+  width: 300px;
+  position: fixed;
+  left: 250px;
+  top: 300px;
+  visibility: hidden;
+}
+#userFireball {
+  width: 300px;
+  position: fixed;
+  left: 250px;
+  top: 300px;
+  visibility: hidden;
+}
+
+#comRock {
+  width: 300px;
+  position: fixed;
+  left: 800px;
+  top: 300px;
+  visibility: hidden;
+}
+#comPaper {
+  width: 300px;
+  position: fixed;
+  left: 800px;
+  top: 300px;
+  visibility: hidden;
+}
+#comFireball {
+  width: 300px;
+  position: fixed;
+  left: 800px;
+  top: 300px;
+  visibility: hidden;
+}
+
+#selectionMenu {
+  visibility: visible;
+}
+
+#pleaseSelect {
+  position: fixed;
+  left: 400px;
+  top: 550px;
+}
+
+#rockButton {
+  width: 300px;
+  height: 100px;
+  position: fixed;
+  left: 225px;
+  top: 600px;
+  background: url("pics/rockbuttonA.png") no-repeat;
+}
+
+#rockButton:hover {
+  background-image: url("pics/rockbuttonB.png") ;
+}
+
+#paperButton {
+  width: 300px;
+  height: 100px;
+  position: fixed;
+  left: 530px;
+  top: 600px;
+  background: url("pics/paperbuttonA.png") no-repeat;
+}
+
+#paperButton:hover {
+  background-image: url("pics/paperbuttonB.png") ;
+}
+
+#fireballButton {
+  width: 300px;
+  height: 100px;
+  position: fixed;
+  left: 835px;
+  top: 600px;
+  background: url("pics/fireballbuttonA.png") no-repeat;
+}
+
+#fireballButton:hover {
+  background-image: url("pics/fireballbuttonB.png") ;
+}
+
+#playAgain {
+  visibility: hidden;
+}
+#playAgainButton {
+  width: 700px;
+  height: 200px;
+  position: fixed;
+  left: 350px;
+  top: 550px;
+  background: url("pics/play_againA.png") no-repeat;
+}
+#playAgainButton:hover {
+  background-image: url("pics/play_againB.png") ;
+}
+
+#resetButton {
+  width: 300px;
+  height: 50px;
+  position: fixed;
+  left: 1105px;
+  top: 620px;
+  background: url("pics/reset_buttonA.png") no-repeat;
+}
+
+#resetButton:hover {
+  background-image: url("pics/reset_buttonB.png") ;
+}
